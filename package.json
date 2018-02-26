@@ -2,7 +2,7 @@
   "name": "tseyler.me",
   "version": "1.0.0",
   "description": "Shaggy Programmer Website",
-  "main": "index.html",
+  "main": "app.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,6 +25,9 @@
   },
   "homepage": "https://github.com/ShaggyProgrammer/ShaggyProgrammer.github.io#readme",
   "dependencies": {
-    "node-sass": "^4.7.2"
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.7.2",
+    "popper.js": "^1.12.9"
   }
 }
