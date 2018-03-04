@@ -29,6 +29,9 @@ form {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+label {
+  font-size: 18px;
+}
 a:hover {
   color: lightblue !important;
 }
@@ -103,6 +106,9 @@ a:hover {
   p {
     font-size: 20px;
   }
+  label{
+    font-size: 20px;
+  }
   #email{
     margin-right: 10px;
     text-align: right;
@@ -128,6 +134,14 @@ a:hover {
   }
   .rwd-line {
     display: block !important;
+  }
+  #email {
+    display: none;
+  }
+  .form-actions{
+    margin: 0;
+    background-color: transparent;
+    text-align: center;
   }
 }
 @media (max-width: 400px) {
